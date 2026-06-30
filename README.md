@@ -297,77 +297,177 @@ So, for documentation, I used reference images to show the RAM slot and storage 
 
 ---
 
-# DAY - 4: GPUs and Cooling Systems
+---
 
-## 1. GPU Identification
+# DAY - 5: Assemble and Disassemble a PC
 
-I identified the GPU installed in the system using system information / PC hardware simulator.
+## 1. Main Components Inside a Desktop PC
 
-| Detail | Information |
+After opening a desktop PC cabinet, the following main components can be found:
+
+| No. | Component | Short Description |
+|---|---|---|
+| 1 | Motherboard | The main circuit board that connects all computer components together. |
+| 2 | CPU / Processor | The brain of the computer that performs calculations and executes instructions. |
+| 3 | RAM | Temporary memory used to store data while programs are running. |
+| 4 | HDD / SSD | Storage devices used to store the operating system, software, and files. |
+| 5 | GPU / Graphics Card | Handles graphics processing, gaming visuals, and video output. |
+| 6 | Power Supply Unit | Converts AC power into DC power and supplies power to all components. |
+| 7 | Cooling Fan | Removes hot air and keeps the system temperature under control. |
+| 8 | Heatsink | Absorbs heat from CPU/GPU and helps in cooling. |
+| 9 | SATA Cables | Connect storage devices like HDD and SATA SSD to the motherboard. |
+| 10 | Cabinet / Case | Holds and protects all internal components of the desktop PC. |
+| 11 | CMOS Battery | Stores BIOS settings and system time. |
+| 12 | Front Panel Connectors | Connect the power button, reset button, USB ports, and LED indicators to the motherboard. |
+
+---
+
+## 2. Desktop PC Disassembly Process
+
+### Practical Note
+
+I performed the PC assembly and disassembly practical during the hands-on session.  
+For documentation, I used one combined labeled image showing all important disassembly steps in proper order.
+
+### Combined Labeled Image of PC Disassembly Steps
+
+![PC Assembly and Disassembly Steps](./assembly-disassembly.png)
+
+### Steps Shown in the Image
+
+| Step | Process | Short Explanation |
+|---|---|---|
+| 1 | Power Off and Unplug | Turn off the PC and remove the power cable before opening the cabinet. |
+| 2 | Remove Side Panel | Remove the screws and slide off the side panel to access internal components. |
+| 3 | Identify Components | Identify CPU cooler, RAM, motherboard, GPU, storage drive, and power supply. |
+| 4 | Disconnect Cables | Disconnect power and data cables carefully from internal components. |
+| 5 | Remove RAM | Open the RAM slot clips and remove the RAM module gently. |
+| 6 | Remove HDD / SSD | Unscrew the storage drive and disconnect SATA and power cables. |
+| 7 | Remove GPU | Remove the GPU screw, unlock the PCIe slot, and take out the graphics card carefully. |
+| 8 | Remove Motherboard | Disconnect remaining cables, unscrew the motherboard, and remove it carefully. |
+
+---
+
+## 3. Desktop PC Reassembly Process
+
+### Step 1: Install the Motherboard
+
+I placed the motherboard properly inside the cabinet and tightened the screws.
+
+**Why order matters:** The motherboard should be installed first because most components connect to it.
+
+---
+
+### Step 2: Install CPU Cooler / Fan
+
+I checked the CPU cooling fan and connected it to the CPU fan header.
+
+**Why order matters:** The CPU must have proper cooling before the system is turned on.
+
+---
+
+### Step 3: Install RAM Module
+
+I inserted the RAM module into the RAM slot and pressed it until the side clips locked.
+
+**Why order matters:** RAM is required for the system to boot successfully.
+
+---
+
+### Step 4: Install HDD / SSD
+
+I placed the HDD/SSD in the drive bay and connected the SATA data cable and SATA power cable.
+
+**Why order matters:** Storage must be connected so the system can load the operating system and files.
+
+---
+
+### Step 5: Install GPU / Expansion Card
+
+I inserted the GPU into the PCIe x16 slot and secured it with a screw.
+
+**Why order matters:** The GPU is needed for display output and graphics performance if the system uses a dedicated graphics card.
+
+---
+
+### Step 6: Connect Power Cables
+
+I connected the 24-pin ATX motherboard power connector and CPU power connector.
+
+**Why order matters:** These power connections are necessary for the motherboard and CPU to work.
+
+---
+
+### Step 7: Connect Front Panel and USB Cables
+
+I connected the power button, reset button, LED indicators, and front USB connectors.
+
+**Why order matters:** These connections allow the cabinet buttons and front ports to work.
+
+---
+
+### Step 8: Final Check and Boot Test
+
+I checked all connections, closed the side panel, connected the power cable, and turned on the PC.
+
+**Result:** The PC booted successfully after reassembly.
+
+---
+
+## 4. Safety Precautions and Tools Checklist
+
+### Tools Required
+
+| Tool | Use |
 |---|---|
-| GPU Brand | NVIDIA |
-| GPU Model Number | GeForce RTX 3060 |
-| GPU Type | Dedicated GPU |
-| Memory Type | GDDR6 |
-| Common Use | Gaming, video editing, streaming, and graphics-heavy applications |
-
-### Integrated GPU vs Dedicated GPU
-
-An integrated GPU is built into the CPU and shares system RAM. It is useful for normal tasks like browsing, watching videos, and basic applications.
-
-A dedicated GPU is a separate graphics card with its own memory. It gives better performance for gaming, streaming, video editing, and graphics-heavy software.
+| Screwdriver | Used to open cabinet screws and remove/install components. |
+| Anti-static wrist strap | Protects components from static electricity damage. |
+| Small container | Used to keep screws safely in one place. |
+| Soft brush | Used to clean dust from components. |
+| Microfiber cloth | Used for safe cleaning without scratching parts. |
+| Flashlight | Helps to clearly see small connectors and slots. |
+| User manual / motherboard manual | Helps identify correct slots, connectors, and cable positions. |
 
 ---
 
-## 2. Cooling System Identification
+### Safety Precautions
 
-I identified the cooling system used inside a PC setup. The cooling system helps remove heat from the CPU, GPU, and other components so that the computer can work safely and smoothly.
-
-### Cooling System Screenshot / Photo
-
-![Cooling System](./cooling-system.jpg)
-
-### Labeled Cooling Components
-
-| Label | Cooling Component | Function |
-|---|---|---|
-| 1 | Cooling Fan | Moves hot air away from the component |
-| 2 | Heatsink | Absorbs heat from CPU/GPU and spreads it |
-| 3 | Heat Pipes | Transfer heat from GPU/CPU to the heatsink |
-| 4 | Airflow Path | Helps hot air exit from the cabinet |
-| 5 | GPU Cooler | Keeps the graphics card temperature under control |
-
-### Function of Cooling System
-
-When a computer runs games or heavy applications, the CPU and GPU generate heat. The cooling fan and heatsink help reduce this heat. Good cooling improves performance and prevents overheating.
+| Safety Precaution | Why It Is Important |
+|---|---|
+| Shut down the PC completely | Prevents data loss and electrical issues. |
+| Disconnect power cable | Protects from electric shock and short circuit. |
+| Press power button after unplugging | Removes remaining power from the system. |
+| Work on a clean and dry surface | Prevents dust, water, and accidental damage. |
+| Handle components by edges | Avoids damage to circuits and gold contacts. |
+| Do not force any component | Prevents breaking slots, pins, or connectors. |
+| Keep screws organized | Helps during reassembly and avoids missing screws. |
+| Avoid touching motherboard circuits | Prevents static discharge and physical damage. |
+| Take photos before disconnecting cables | Helps remember cable positions during reassembly. |
+| Check all connections before power on | Prevents boot failure or component damage. |
 
 ---
 
-## 3. Difference Between Air Cooling and Liquid Cooling for GPUs
+## Labeled Diagram of PC Assembly and Disassembly Flow
 
-| Feature | Air Cooling | Liquid Cooling |
-|---|---|---|
-| Cooling Method | Uses fans and heatsinks to remove heat | Uses liquid coolant, pump, radiator, and fans |
-| Cost | Cheaper and budget-friendly | More expensive than air cooling |
-| Efficiency | Good for normal gaming and regular use | Better for high-performance gaming and overclocking |
-| Maintenance | Low maintenance and easy to clean | Requires more care and checking |
-| Noise | Can be noisy at high fan speed | Usually quieter if properly installed |
-| Installation | Easy to install | More complex installation |
-| Risk | Very low risk | Small risk of leakage if not installed properly |
-| Best Use Case | Normal gaming PC, office PC, budget gaming setup | High-end gaming PC, streaming PC, heavy workload PC |
+```mermaid
+flowchart TD
+    A[Start] --> B[Shut Down PC]
+    B --> C[Disconnect Power Cable]
+    C --> D[Remove Side Panel]
+    D --> E[Identify Components]
+    E --> F[Disconnect Cables]
+    F --> G[Remove RAM]
+    G --> H[Remove HDD / SSD]
+    H --> I[Remove GPU]
+    I --> J[Remove Motherboard]
+    J --> K[Clean and Inspect Components]
+    K --> L[Reinstall Motherboard]
+    L --> M[Install RAM]
+    M --> N[Install Storage Drive]
+    N --> O[Install GPU]
+    O --> P[Connect Power and Data Cables]
+    P --> Q[Close Cabinet]
+    Q --> R[Boot Test]
+    R --> S[Process Completed]
+```
 
----
-
-## 4. Best Cooling Choice for Gaming PC
-
-If I am building a gaming PC for streaming IPL matches and playing graphics-heavy games, I would choose **air cooling** for the GPU.
-
-Air cooling is cheaper, easier to install, and requires less maintenance. For normal gaming and streaming, a good air-cooled GPU is enough. Liquid cooling gives better cooling performance, but it is more expensive and needs more care. So, for a balanced gaming PC, air cooling is the better choice.
-
----
-
-## Practical Note
-
-I used a PC hardware simulator / reference PC setup because opening a real laptop or desktop was not possible at home without proper tools. The GPU and cooling system were identified using a reference setup for learning and documentation.
-
----
