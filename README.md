@@ -1,5 +1,7 @@
 # Desktop PC Hardware Assignment
-DAY - 1
+
+# DAY - 1: Overview of Hardware Components
+
 ## 1. Labeled Diagram of a Desktop PC
 
 ```mermaid
@@ -85,11 +87,9 @@ Gaming creates heat inside the PC. Better cooling helps maintain performance and
 
 ---
 
-## Conclusion
 
-A desktop PC contains important components like the motherboard, CPU, RAM, GPU, HDD, and SSD. For gaming performance, CPU, RAM, GPU, and SSD are very important. To play modern games like FIFA smoothly, upgrading GPU, RAM, SSD, and CPU can improve speed, graphics, and overall gameplay experience.
+# DAY - 2: Motherboard and CPU
 
-DAY - 2
 ## 1. Labeled Diagram of an ATX Motherboard
 
 ```mermaid
@@ -188,6 +188,111 @@ I used a real motherboard photo and identified different ports and slots by circ
 
 ---
 
-## Conclusion
+# DAY - 3: RAM and Storage
 
-An ATX motherboard connects important computer components such as CPU, RAM, GPU, storage devices, and power supply. The CPU performs processing tasks, while the chipset manages communication between different hardware parts. Understanding motherboard slots and ports is important for assembling, upgrading, and troubleshooting a computer.
+---
+
+# DAY - 3: RAM and Storage
+
+## 1. Comparison Table: DDR3, DDR4, and DDR5 RAM
+
+| Feature | DDR3 RAM | DDR4 RAM | DDR5 RAM |
+|---|---|---|---|
+| Full Form | Double Data Rate 3 | Double Data Rate 4 | Double Data Rate 5 |
+| Speed | Lower speed compared to DDR4 and DDR5 | Faster than DDR3 | Fastest among DDR3, DDR4, and DDR5 |
+| Typical Speed Range | Around 800 MHz to 2133 MHz | Around 2133 MHz to 3200 MHz or higher | Around 4800 MHz and higher |
+| Voltage | Around 1.5V | Around 1.2V | Around 1.1V |
+| Power Efficiency | Less power efficient | More power efficient than DDR3 | Most power efficient |
+| Performance | Suitable for basic computing | Good for modern PCs and gaming | Best for high-performance gaming, editing, and professional work |
+| Typical Use Cases | Older desktops and laptops | Modern desktops, laptops, and gaming PCs | Latest high-end desktops, laptops, gaming PCs, and workstations |
+| Compatibility | Works only with DDR3-supported motherboard | Works only with DDR4-supported motherboard | Works only with DDR5-supported motherboard |
+
+---
+
+## 2. Practical: RAM Slot Identification and Reinstallation
+
+### Safety Steps Followed
+
+Before opening the laptop or desktop, I followed these safety steps:
+
+1. Shut down the computer completely.
+2. Disconnected the power cable or charger.
+3. Pressed the power button for a few seconds to discharge remaining power.
+4. Opened the back panel or cabinet carefully.
+5. Located the RAM slot and RAM module.
+6. Removed and reinstalled the RAM module properly.
+7. Closed the system and turned it on again.
+8. Verified that the system booted successfully.
+
+### RAM Module Reference Image
+
+I performed the RAM practical in front of my instructor.  
+At home, I could not reopen my laptop because proper tools were not available, so I used this reference image for documentation.
+
+![RAM Module Reference](./ram-module.jpg)
+
+
+### Boot Verification
+
+After reinstalling the RAM module, the system booted successfully. This confirms that the RAM was installed properly.
+
+---
+
+## 3. Differences Between HDD, SSD, and NVMe Storage
+
+| Feature | HDD | SSD | NVMe |
+|---|---|---|---|
+| Full Form | Hard Disk Drive | Solid State Drive | Non-Volatile Memory Express |
+| Speed | Slowest because it uses spinning disks | Faster than HDD because it uses flash memory | Fastest because it uses PCIe lanes |
+| Connection Type | Usually SATA | Usually SATA | Usually M.2 PCIe |
+| Moving Parts | Has moving mechanical parts | No moving parts | No moving parts |
+| Durability | Less durable because shock can damage it | More durable than HDD | More durable and faster |
+| Cost | Cheapest for large storage | Medium cost | More expensive than SATA SSD |
+| Best Use | Large file storage and backups | Operating system, apps, and games | High-speed gaming, editing, and heavy applications |
+
+### Daily App / Use Case Examples
+
+| Storage Type | Best Daily Use Case | Example App |
+|---|---|---|
+| HDD | Storing large videos, movies, photos, and backups | Google Drive backup files / downloaded movies |
+| SSD | Faster booting and smooth app opening | Windows, Chrome, VS Code |
+| NVMe | Very fast loading for heavy apps and games | GTA V, FIFA, PUBG PC, video editing software |
+
+---
+
+## 4. Practical: Storage Drive Connector Identification and Reinstallation
+
+### Safety Steps Followed
+
+Before removing the storage drive, I followed these safety steps:
+
+1. Shut down the computer completely.
+2. Disconnected the power cable or charger.
+3. Opened the laptop back panel or desktop cabinet carefully.
+4. Located the storage drive.
+5. Identified the connector type such as SATA, M.2, or NVMe.
+6. Removed and reinstalled the storage drive carefully.
+7. Closed the system and turned it on.
+8. Verified that the device recognized the storage after reassembly.
+
+
+### Storage Connector Reference Image
+
+I performed the storage identification practical in front of my instructor.  
+At home, I could not reopen my laptop because proper tools were not available, so I used this reference image to show the storage connector clearly.
+
+![Storage Connector Reference](./storage-connector.jpg)
+
+### Storage Recognition Confirmation
+
+After reinstalling the storage drive, the device recognized the storage successfully. This confirms that the storage drive was connected properly.
+
+### Practical Note
+
+I performed the RAM and storage identification practical in front of my instructor.  
+However, I could not reopen my personal laptop at home because I did not have the proper tools.  
+So, for documentation, I used reference images to show the RAM slot and storage connector clearly.
+
+---
+
+
