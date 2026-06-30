@@ -325,7 +325,7 @@ I identified the cooling system used inside a PC setup. The cooling system helps
 
 ### Cooling System Screenshot / Photo
 
-![Cooling System](./cooling-system.png)
+![Cooling System](./cooling-system.jpg)
 
 ### Labeled Cooling Components
 
