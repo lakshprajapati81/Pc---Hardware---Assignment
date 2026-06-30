@@ -1,0 +1,101 @@
+---
+
+# Day 2: Motherboard and CPU
+
+## 1. Labeled Diagram of an ATX Motherboard
+
+```mermaid
+flowchart TB
+    MB[ATX Motherboard]
+
+    MB --> CPU[CPU Socket]
+    MB --> RAM[RAM / DIMM Slots]
+    MB --> PCIE16[PCIe x16 Slot]
+    MB --> PCIE1[PCIe x1 Slot]
+    MB --> SATA[SATA Ports]
+    MB --> M2[M.2 Slot]
+    MB --> USB[USB Headers]
+    MB --> ATX24[24-pin ATX Power Connector]
+    MB --> CPU8[8-pin CPU Power Connector]
+    MB --> IO[Rear I/O Panel]
+    MB --> CHIP[Chipset]
+
+    CPU --> CPUUse[CPU is installed here]
+    RAM --> RAMUse[RAM modules are installed here]
+    PCIE16 --> GPUUse[Used for GPU / Graphics Card]
+    PCIE1 --> CardUse[Used for Wi-Fi, sound card, etc.]
+    SATA --> StorageUse[Used to connect HDD / SSD]
+    M2 --> SSDUse[Used for NVMe SSD]
+    USB --> FrontUSB[Connects front panel USB ports]
+    ATX24 --> PowerUse[Main power supply to motherboard]
+    CPU8 --> CPUPower[Extra power for CPU]
+    IO --> PortUse[USB, LAN, audio, HDMI ports]
+    CHIP --> ChipsetUse[Controls communication between components]
+```
+
+### Labeled Parts Marked in the Diagram
+
+1. CPU Socket  
+2. RAM / DIMM Slots  
+3. PCIe x16 Slot  
+4. PCIe x1 Slot  
+5. SATA Ports  
+6. M.2 Slot  
+7. USB Headers  
+8. 24-pin ATX Power Connector  
+9. 8-pin CPU Power Connector  
+10. Rear I/O Panel  
+11. Chipset  
+
+---
+
+## 2. Popular CPU Socket Types and Compatible CPU Models
+
+| CPU Socket Type | Compatible CPU Model | Description |
+|---|---|---|
+| LGA1151 | Intel Core i5-9400F | Used with many Intel 8th and 9th generation desktop processors |
+| AM4 | AMD Ryzen 5 5600 | Used with many AMD Ryzen desktop processors |
+| LGA1200 | Intel Core i5-10400 | Used with many Intel 10th and 11th generation desktop processors |
+
+---
+
+## 3. Functions of CPU and Chipset
+
+### CPU
+
+The CPU is the main processing unit of the computer. It performs calculations, runs instructions, and controls the main tasks of the system. When we open an application like Spotify, the CPU processes the command and starts the application.
+
+### Chipset
+
+The chipset is an important part of the motherboard that helps different components communicate with each other. It manages data flow between the CPU, RAM, storage devices, USB ports, and other hardware. It acts like a traffic controller on the motherboard.
+
+### How CPU and Chipset Work Together When Opening Spotify
+
+## 4. Real Motherboard Photo With Labeled Ports and Slots
+
+I used a real motherboard photo and identified different ports and slots by circling and labeling them.
+
+### Identified Motherboard Parts
+
+| Label | Motherboard Part | Use |
+|---|---|---|
+| 1 | CPU Socket | Used to install the processor |
+| 2 | RAM / DIMM Slots | Used to install RAM modules |
+| 3 | 24-pin ATX Power Connector | Provides main power to the motherboard |
+| 4 | PCIe x16 Slot | Used to install a graphics card |
+| 5 | M.2 / NVMe SSD Slot | Used to install a fast NVMe SSD |
+| 6 | SATA Ports | Used to connect HDD or SATA SSD |
+| 7 | Rear I/O Ports | Used for USB, LAN, audio, and display ports |
+| 8 | Chipset Heatsink | Helps cool and protect the chipset |
+| 9 | CMOS Battery | Stores BIOS settings and system time |
+| 10 | 8-pin CPU Power Connector | Provides extra power to the CPU |
+
+### Labeled Motherboard Image
+
+![Labeled Motherboard](Motherboard Labelled.png)
+
+---
+
+## Conclusion
+
+An ATX motherboard connects all major computer components such as CPU, RAM, GPU, storage, and power supply. The CPU performs processing tasks, while the chipset manages communication between different hardware parts. Understanding motherboard slots and ports is important for assembling, upgrading, and troubleshooting a computer.
