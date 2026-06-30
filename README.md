@@ -295,4 +295,79 @@ So, for documentation, I used reference images to show the RAM slot and storage 
 
 ---
 
+---
 
+# DAY - 4: GPUs and Cooling Systems
+
+## 1. GPU Identification
+
+I identified the GPU installed in the system using system information / PC hardware simulator.
+
+| Detail | Information |
+|---|---|
+| GPU Brand | NVIDIA |
+| GPU Model Number | GeForce RTX 3060 |
+| GPU Type | Dedicated GPU |
+| Memory Type | GDDR6 |
+| Common Use | Gaming, video editing, streaming, and graphics-heavy applications |
+
+### Integrated GPU vs Dedicated GPU
+
+An integrated GPU is built into the CPU and shares system RAM. It is useful for normal tasks like browsing, watching videos, and basic applications.
+
+A dedicated GPU is a separate graphics card with its own memory. It gives better performance for gaming, streaming, video editing, and graphics-heavy software.
+
+---
+
+## 2. Cooling System Identification
+
+I identified the cooling system used inside a PC setup. The cooling system helps remove heat from the CPU, GPU, and other components so that the computer can work safely and smoothly.
+
+### Cooling System Screenshot / Photo
+
+![Cooling System](./cooling-system.png)
+
+### Labeled Cooling Components
+
+| Label | Cooling Component | Function |
+|---|---|---|
+| 1 | Cooling Fan | Moves hot air away from the component |
+| 2 | Heatsink | Absorbs heat from CPU/GPU and spreads it |
+| 3 | Heat Pipes | Transfer heat from GPU/CPU to the heatsink |
+| 4 | Airflow Path | Helps hot air exit from the cabinet |
+| 5 | GPU Cooler | Keeps the graphics card temperature under control |
+
+### Function of Cooling System
+
+When a computer runs games or heavy applications, the CPU and GPU generate heat. The cooling fan and heatsink help reduce this heat. Good cooling improves performance and prevents overheating.
+
+---
+
+## 3. Difference Between Air Cooling and Liquid Cooling for GPUs
+
+| Feature | Air Cooling | Liquid Cooling |
+|---|---|---|
+| Cooling Method | Uses fans and heatsinks to remove heat | Uses liquid coolant, pump, radiator, and fans |
+| Cost | Cheaper and budget-friendly | More expensive than air cooling |
+| Efficiency | Good for normal gaming and regular use | Better for high-performance gaming and overclocking |
+| Maintenance | Low maintenance and easy to clean | Requires more care and checking |
+| Noise | Can be noisy at high fan speed | Usually quieter if properly installed |
+| Installation | Easy to install | More complex installation |
+| Risk | Very low risk | Small risk of leakage if not installed properly |
+| Best Use Case | Normal gaming PC, office PC, budget gaming setup | High-end gaming PC, streaming PC, heavy workload PC |
+
+---
+
+## 4. Best Cooling Choice for Gaming PC
+
+If I am building a gaming PC for streaming IPL matches and playing graphics-heavy games, I would choose **air cooling** for the GPU.
+
+Air cooling is cheaper, easier to install, and requires less maintenance. For normal gaming and streaming, a good air-cooled GPU is enough. Liquid cooling gives better cooling performance, but it is more expensive and needs more care. So, for a balanced gaming PC, air cooling is the better choice.
+
+---
+
+## Practical Note
+
+I used a PC hardware simulator / reference PC setup because opening a real laptop or desktop was not possible at home without proper tools. The GPU and cooling system were identified using a reference setup for learning and documentation.
+
+---
